@@ -1,5 +1,22 @@
-
-### Prerequisites:
+ ## Features
+ 
+- **Real-Time Orderbook**: Displays the top 10 levels of bids and asks for BTC-USD, updating every second.
+- **Spread Indicator**: Tracks the difference between the best bid and ask prices.
+- **Orderbook Imbalance**: Shows the imbalance between total bids and asks as a percentage.
+- **Market Depth Chart**: Visualizes the aggregated volume of bids and asks.
+- **Responsive Design**: Fully functional on mobile and desktop devices.
+ 
+---
+ 
+## Libraries Used
+ 
+- **Next.js**
+- **Tailwind CSS**
+- **Chart.js**: For rendering the market depth chart.
+- **Binance API**: Source of real-time BTC-USD orderbook data.
+ 
+---
+## Prerequisites:
 - Node.jS (v16 or later) installed on your machine.
 
 - ### Running the Project locally:
